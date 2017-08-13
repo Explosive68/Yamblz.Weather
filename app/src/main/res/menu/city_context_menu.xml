@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item
+            android:id="@+id/context_delete_city"
+            android:icon="@android:drawable/ic_notification_clear_all"
+            android:title="@string/menu_tools"
+            app:showAsAction="ifRoom"/>
+</menu>

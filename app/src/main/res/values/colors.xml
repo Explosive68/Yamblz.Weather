@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimaryDark">#ffcc00</color>
-    <color name="colorPrimary">#ffe066</color>
-    <color name="colorAccent">#ff4f00</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorAccent">#FFC107</color>
     <color name="lightEmber">#ff7433</color>
 
+    <color name="yandexRed">#EB3940</color>
 
+    <color name="titleText">#fefefe</color>
     <color name="greyText">#888888</color>
 
+    <color name="weatherCardDelimiter">#888888</color>
 
+    <color name="titleIcons">#fefefe</color>
+
+    <color name="mainText">#ffffffaa</color>
+    <color name="forecastText">#888888</color>
+
+    <color name="dayTempText">#cfc62828</color>
+    <color name="nightTempText">#b9536dfe</color>
+
+    <color name="cityListSelectedItemColor">@color/colorPrimaryDark</color>
+    <color name="cityListUnselectedItemColor">@color/colorPrimary</color>
 </resources>

@@ -8,7 +8,6 @@
 
     <string name="api_key" translatable="false">4910f098be51f2bea56f920eff28f314</string>
     <string name="moscow_name">Moscow</string>
-    <string name="moscow_id" translatable="false">524901</string>
 
     <string name="menu_tools">Settings</string>
     <string name="menu_about">About</string>
@@ -44,5 +43,9 @@
     <string name="error_network">Network error!\nPlease, try later</string>
     <string name="error_connection">Connection error</string>
     <string name="error_oops">Oops, something wrong.\nPlease, try later</string>
+    <string name="error_unknown">Unknown error</string>
     <string name="error_gp_service_not_available">Google Play Services are not available: %1$s</string>
+    <string name="tempr_float" translatable="false">%.0f</string>
+
+    <string name="city_list_item_deleted">Deleted</string>
 </resources>

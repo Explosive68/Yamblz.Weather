@@ -83,3 +83,8 @@
 -dontwarn com.squareup.okhttp.**
 
 -dontwarn javax.annotation.**
+
+-dontwarn com.google.errorprone.annotations.*
+
+-dontwarn android.arch.util.paging.CountedDataSource
+-dontwarn android.arch.persistence.room.paging.LimitOffsetDataSource

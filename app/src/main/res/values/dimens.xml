@@ -8,11 +8,18 @@
     <dimen name="title_size">18sp</dimen>
     <dimen name="text_size">16sp</dimen>
     <dimen name="small_text">11sp</dimen>
-    <dimen name="main_tempr_text">25sp</dimen>
+    <dimen name="main_tempr_text">24sp</dimen>
+    <dimen name="city_list_item_tempr_small">16sp</dimen>
+    <dimen name="city_list_item_text">24sp</dimen>
+
     <dimen name="text_size_list_item">18sp</dimen>
+
+    <dimen name="city_selection_yandex_logo_height">50dp</dimen>
+    <dimen name="city_selection_yandex_logo_width">128dp</dimen>
 
     <dimen name="min_dialog_width">200dp</dimen>
     <dimen name="icon_size">40dp</dimen>
+    <dimen name="weather_icon_size">72dp</dimen>
 
     <dimen name="margin_tiny">4dp</dimen>
     <dimen name="margin_small">8dp</dimen>
@@ -21,6 +28,10 @@
     <dimen name="margin_huge">64dp</dimen>
 
     <dimen name="list_item_height">72dp</dimen>
+    <dimen name="forecast_list_item_height">72dp</dimen>
 
     <dimen name="progress_bar_size">48dp</dimen>
+    <dimen name="forecast_list_text_size">24sp</dimen>
+    <dimen name="forecast_list_text_tempr_size">20sp</dimen>
+    <dimen name="forecast_list_icon_state_size">48dp</dimen>
 </resources>
