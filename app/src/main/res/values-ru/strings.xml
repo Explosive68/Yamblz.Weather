@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Погода</string>
+    <string name="app_name">Yather</string>
     <string name="menu_tools">Настройки</string>
     <string name="menu_about">О программе</string>
     <string name="menu_weather">Погода</string>

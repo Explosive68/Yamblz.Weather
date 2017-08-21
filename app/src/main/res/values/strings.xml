@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Weather</string>
+    <string name="app_name">Yather</string>
 
     <string name="navigation_drawer_open"
         translatable="false">Open navigation drawer</string>

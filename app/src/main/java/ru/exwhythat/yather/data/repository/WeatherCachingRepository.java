@@ -28,7 +28,7 @@ public class WeatherCachingRepository {
 
     /**
      * 1) Try to get weather from database
-     * 2) If there is no weather for out city in DB, fetch it from network
+     * 2) If there is no weather for our city in DB, fetch it from network
      * 3) Merge Single with endless Flowable to watch for database changes
      */
     public Flowable<CurrentWeather> getWeather() {

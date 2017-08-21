@@ -41,7 +41,7 @@ public class NetworkModule {
         loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
 
         OkHttpClient.Builder builder = new OkHttpClient.Builder();
-        if(BuildConfig.DEBUG) {
+        if (BuildConfig.DEBUG) {
             builder.addNetworkInterceptor(new StethoInterceptor())
                     .addInterceptor(loggingInterceptor);
         }

@@ -24,6 +24,7 @@ import java.util.List;
 import javax.inject.Inject;
 
 import butterknife.BindView;
+import ru.exwhythat.yather.BuildConfig;
 import ru.exwhythat.yather.R;
 import ru.exwhythat.yather.activity.MainActivity;
 import ru.exwhythat.yather.base_util.livedata.Resource;
@@ -141,7 +142,9 @@ CitiesAdapter.OnCityInteractionListener {
     }
 
     private void onForecastClicked(int forecastItemId) {
-        Toast.makeText(getContext(), "Forecast clicked: "  + forecastItemId, Toast.LENGTH_SHORT).show();
+        if (BuildConfig.DEBUG) {
+            Toast.makeText(getContext(), "Forecast clicked: " + forecastItemId, Toast.LENGTH_SHORT).show();
+        }
     }
 
     private void initRecycler(RecyclerView rv, RecyclerView.Adapter adapter, int orientation) {

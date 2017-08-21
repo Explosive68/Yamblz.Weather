@@ -13,7 +13,7 @@ public class Converters {
     public static class DateTimestamp {
         @TypeConverter
         public static Date fromTimestamp(Long timestamp) {
-            return timestamp == null ? null : new Date(timestamp*1000);
+            return timestamp == null ? null : new Date(timestamp);
         }
 
         @TypeConverter

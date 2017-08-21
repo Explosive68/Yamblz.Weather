@@ -67,7 +67,7 @@ public class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.Foreca
         holder.forecastDayTemp.setText(StringUtils.getFormattedTemperature(context, forecast.getDayTemp()));
         holder.forecastNightTemp.setText(StringUtils.getFormattedTemperature(context, forecast.getNightTemp()));
 
-        holder.itemView.setOnClickListener(view -> clickListener.onForecastClicked(forecast.getApiCityId()));
+        holder.itemView.setOnClickListener(view -> clickListener.onForecastClicked(forecast.getForecastId()));
     }
 
     private String capitalizeFirstLetter(String word) {

@@ -1,9 +1,5 @@
 package ru.exwhythat.yather.di;
 
-/**
- * Created by exwhythat on 03.08.17.
- */
-
 import android.app.Activity;
 import android.app.Application;
 import android.os.Bundle;
